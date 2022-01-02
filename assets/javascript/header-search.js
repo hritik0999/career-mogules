@@ -1,6 +1,7 @@
 // header search f  unction
+const textInput=document.getElementById('text-box');
+textInput.addEventListener('keydown',search);
 function search(){
-    const inputBox=document.getElementById('search-box');
-    const inputValue=inputBox.value;
-    console.log(inputValue);
+    const inputValue=textInput.value;
+    console.log(inputValue,"Data");
 }

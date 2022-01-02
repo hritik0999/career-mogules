@@ -33,7 +33,7 @@ const changeSize=()=>{
             document.getElementsByClassName('redirection')[i].style.fontSize='11px';
         }
     }
-    if(bodyWidth<=895){
+    if(bodyWidth<=768){
         header.style.display='none';
     }
     if(bodyWidth>895){
