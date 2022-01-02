@@ -45,15 +45,12 @@ const changeSize=()=>{
         header.style.display='';
         header.removeAttribute('style');
     }
-    if(bodyWidth>998){
-        for(i=0;i<=6;i++){
-            document.getElementsByClassName('redirection')[i].style.fontSize='large';
-        }
-    }
-}
-window.onload=()=>{
-    const bodyWidthHere=body.clientWidth;
-    if(bodyWidthHere==1024){
+    // if(bodyWidth>998){
+    //     for(i=0;i<=6;i++){
+    //         document.getElementsByClassName('redirection')[i].style.fontSize='large';
+    //     }
+    // }
+    if(bodyWidth==1024){
         for(i=0;i<=6;i++){
             document.getElementsByClassName('redirection')[i].style.fontSize='12px';
         }
