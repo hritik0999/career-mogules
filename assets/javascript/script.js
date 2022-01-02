@@ -14,6 +14,11 @@ SearchIcon.addEventListener('click',()=>{
             document.getElementsByClassName('redirection')[i].style.fontSize='8px';
         }  
     }
+    if(ourBodyWidth==1024){
+        for(i=0;i<=6;i++){
+            document.getElementsByClassName('redirection')[i].style.fontSize='11px';
+        }  
+    }
     cutIcon.style.display='block';
     SearchIcon.style.display='none';
     searchBox.style.width='151px';
@@ -43,6 +48,14 @@ const changeSize=()=>{
     if(bodyWidth>998){
         for(i=0;i<=6;i++){
             document.getElementsByClassName('redirection')[i].style.fontSize='large';
+        }
+    }
+}
+window.onload=()=>{
+    const bodyWidthHere=body.clientWidth;
+    if(bodyWidthHere==1024){
+        for(i=0;i<=6;i++){
+            document.getElementsByClassName('redirection')[i].style.fontSize='12px';
         }
     }
 }
