@@ -1,0 +1,35 @@
+p{
+    color: black;
+}
+/* #search-div{
+    height: ;
+} */
+.main-search{
+    border: 1px solid black;
+    height: 105px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#first-main-search{
+    height: 183px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: row;
+}
+#first-one{
+    width: 20%;
+}
+#second-one{
+    width: 10%;
+}
+#input-search{
+    width: 70%;
+}
+#search-box{
+    width: 933px;
+    border: none;
+    border-color: transparent;
+    outline: none;
+}
