@@ -45,9 +45,77 @@ header{
 }
 #text-box{
     width: 50px;
-    /* display: none; */
     transition: width 1s;
     border: 1px solid grey;
     border-radius: 10px;
     outline-color: grey;
+}
+#first-section{
+    width: 100%;
+    border: 1px solid black;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.first-section{
+    border: 1px solid black;
+    height: 100px;
+}
+#hamburger-icon{
+    width: 30%;
+    /* display: flex;
+    flex-direction: row; */
+}
+#logo-icon{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search-cross-icon{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#main-icon{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-search-icon{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#extra-space-for-search{
+    width: 80%;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu-mobile-view{
+    width: 100%;
+    height: 365px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    top: 100px;
+}
+.mobile{
+    border: 1px solid black;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
 }

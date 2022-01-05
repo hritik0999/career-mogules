@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +10,10 @@
     <link rel="stylesheet" href="../assets/css/banner-image.css">
     <title>Document</title>
 </head>
+
 <body onresize="changeSize()">
-    <!-- header starts -->
-    <header>
+    <!-- header for desktop view starts -->
+    <header id="desktop-view-header">
         <div id="first">
 
         </div>
@@ -23,18 +25,54 @@
             <div class="second"><a href="" class="redirection">Career Path</a></div>
             <div class="second"><a href="" class="redirection">Contact Us</a></div>
             <div class="second"><a href="" class="redirection">Login</a></div>
-            <div class="second"><input type="text" id="text-box" placeholder="Search"></div>
+            <div class="second"><input type="text" id="text-box" placeholder="Search" onclick="inputClick()"></div>
             <div class="second" id="search-icon">
                 <img src="../images/magnifying-glass.png" alt="" width="30px" height="30px" id="search">
                 <img src="../images/cross-icon.png" alt="" width="30px" height="30px" id="cut">
             </div>
         </div>
     </header>
-    <!-- header ends -->
+    <!-- header for desktop view ends -->
+    <!-- header for mobile view starts -->
+    <header id="mobile-view-header">
+        <div id="first-section">
+            <div class="first-section" id="hamburger-icon">
+                <div id="main-icon">
+                    <img src="../images/hamburger.png" alt="" width="35px" height="35px" id="hambuger-mobile">
+                    <img src="../images/cross-icon.png" alt="" width="35px" height="35px" id="cut-mobile">
+                </div>
+                <div id="extra-space"></div>
+            </div>
+            <div class="first-section" id="logo-icon">
+                logo
+            </div>
+            <div class="first-section" id="search-cross-icon">
+                <div id="extra-space-for-search">
+                </div>
+                <div id="main-search-icon">
+                </div>
+            </div>
+        </div>
+        <div id="second-section">
+
+        </div>
+    </header>
+    <!-- mobile menu starts -->
+    <section id="menu-mobile-view">
+        <div class="mobile"><a href="" class="redirection">Home</a></div>
+        <div class="mobile"><a href="" class="redirection">About Us</a></div>
+        <div class="mobile"><a href="" class="redirection">Courses</a></div>
+        <div class="mobile"><a href="" class="redirection">Blog</a></div>
+        <div class="mobile"><a href="" class="redirection">Career Path</a></div>
+        <div class="mobile"><a href="" class="redirection">Contact Us</a></div>
+        <div class="mobile"><a href="" class="redirection">Login</a></div>
+    </section>
+    <!-- mobile menu ends -->
+    <!-- header for mobile view ends -->
     <!-- banner image seciton starts -->
     <section id="banner">
-    <!-- search anything starts -->
-    <!-- search anything ends -->
+        <!-- search anything starts -->
+        <!-- search anything ends -->
     </section>
     <!-- banner image seciton ends -->
     <!-- tiles section starts -->
@@ -47,11 +85,12 @@
 
     </section>
     <!-- footer starts -->
-    <footer>
+    <footer id="footer">
 
     </footer>
     <!-- footer ends -->
 </body>
+
 </html>
 <script src="../assets/javascript/script.js"></script>
 <script src="../assets/javascript/header-search.js"></script>
